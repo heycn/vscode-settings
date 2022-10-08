@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Dark (Molokai)",
-  "editor.fontFamily": "Input Mono, JetBrains Mono, Fira Code, monospace",
+  "editor.fontFamily": "Input Mono, Fira Code, monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "workbench.iconTheme": "file-icons",
   "window.zoomLevel": 0.6,
@@ -97,13 +97,17 @@
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "bash",
   "terminal.integrated.profiles.windows": {
     "bash": {
       "path": "C:\\Program Files\\Git\\bin\\bash.exe",
       "args": ["-i", "-l"]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "bash",
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#414141"
+  },
+  "editor.lineNumbers": "interval",
   "security.workspace.trust.banner": "never",
   "editor.bracketPairColorization.enabled": false,
   "editor.scrollBeyondLastLine": false,
