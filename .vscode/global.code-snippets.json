@@ -1,0 +1,100 @@
+{
+  "html5": {
+    "prefix": "!",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang='zh-CN'>",
+      "  <head>",
+      "    <meta charset='UTF-8' />",
+      // "    <meta name='referrer' content='always' />",
+      "    <meta http-equiv='X-UA-Compatible' content='IE=edge' />",
+      // "    <meta name='robots' content='none' />",
+      // "    <meta name='renderer' content='webkit' />",
+      // "    <meta name='revisit-after' content='7 days' />",
+      "    <meta",
+      "      name='viewport'",
+      "      content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover'",
+      "    />",
+      "    <meta http-equiv='X-UA-Compatible' content='ie=edge,chrome=1' />",
+      "    <title>$1</title>",
+      "  </head>",
+      "  <body>$2</body>",
+      "</html>"
+    ],
+    "description": "html5"
+  },
+
+  "import": {
+    "prefix": "im",
+    "body": ["import { $1 } from '$2';"],
+    "description": "Import a module"
+  },
+
+  "console.log": {
+    "prefix": "log",
+    "body": ["console.log($1)"],
+    "description": "Print 'console.log()'"
+  },
+
+  "import scss ": {
+    "prefix": "ims",
+    "body": "import s from './$1.module.scss'",
+    "description": "Import a module scss"
+  },
+
+  "Vue defineComponent": {
+    "prefix": "vdc",
+    "body": [
+      "import { defineComponent, PropType } from 'vue'",
+      "",
+      "export const ${TM_FILENAME_BASE} = defineComponent({",
+      "  props: {",
+      "    name: {",
+      "      type: String as PropType<string>",
+      "    }",
+      "  },",
+      "",
+      "  setup: (props, context) => {",
+      "    return () => (",
+      "      <div>",
+      "        $1",
+      "      </div>",
+      "    )",
+      "  }",
+      "})"
+    ]
+  },
+
+  "setTimeout()": {
+    "prefix": "sto",
+    "body": ["setTimeout(() => {", "  $2", "}, ${1:delay})"]
+  },
+
+  "setInterval()": {
+    "prefix": "siv",
+    "body": ["setInterval(() => {", "  $2", "}, ${1:delay})"]
+  },
+
+  "React Function Component": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "export const ${TM_FILENAME_BASE} = () => {",
+      "  return (",
+      "    <div>$1</div>",
+      "  )",
+      "}"
+    ]
+  },
+
+  "React useState": {
+    "prefix": "us",
+    "body": ["const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState($2)"]
+  },
+
+  "React useEffect": {
+    "prefix": "ue",
+    "body": ["useEffect(() => {", "  $1", "}, [])"]
+  }
+}
