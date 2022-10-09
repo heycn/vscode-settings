@@ -1,17 +1,22 @@
 {
-  "workbench.colorTheme": "Dark (Molokai)",
+  // Visuals
+  // "workbench.colorTheme": "Dark (Molokai)",
+  "workbench.colorTheme": "Vim Dark Medium",
+  // "workbench.colorTheme": "Theme (Italic)",
+  "workbench.iconTheme": "file-icons",
+  "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Fira Code, monospace",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
-  "workbench.iconTheme": "file-icons",
   "window.zoomLevel": 0.6,
 
-  // vim
+  // Vim
+  "vim.easymotion": true,
   "vim.incsearch": true,
+  "vim.leader": "<space>",
   "vim.useSystemClipboard": true,
   "vim.foldfix": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
-  "markdown.preview.scrollEditorWithPreview": false,
   "vim.normalModeKeyBindingsNonRecursive": [
     { "before": ["<C-n>"], "commands": [":nohl"] },
     { "before": ["K"], "commands": ["lineBreakInsert"], "silent": true },
@@ -33,7 +38,7 @@
     "<C-.>": false
   },
 
-  // git
+  // Git
   "git.enabled": true,
   "git.ignoreMissingGitWarning": true,
   "git.enableSmartCommit": true,
@@ -90,7 +95,7 @@
     }
   },
 
-  // editor
+  // Editor
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
@@ -111,6 +116,7 @@
   "security.workspace.trust.banner": "never",
   "editor.bracketPairColorization.enabled": false,
   "editor.scrollBeyondLastLine": false,
+  "editor.renderWhitespace": "boundary",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.wordWrapColumn": 120,
   "editor.minimap.enabled": false,
@@ -244,7 +250,7 @@
     "json5"
   ],
 
-  // extension
+  // Extension
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": true,
   "todohighlight.keywords": [
@@ -283,5 +289,6 @@
     "xml": {
       "attr_quotes": "single"
     }
-  }
+  },
+  "html.autoCreateQuotes": false
 }
