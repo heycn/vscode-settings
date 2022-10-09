@@ -4,6 +4,7 @@
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Fira Code, monospace",
+  "workbench.fontAliasing": "antialiased",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "window.zoomLevel": 0.6,
 
