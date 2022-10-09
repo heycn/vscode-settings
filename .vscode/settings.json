@@ -1,8 +1,6 @@
 {
   // Visuals
-  // "workbench.colorTheme": "Dark (Molokai)",
   "workbench.colorTheme": "Vim Dark Medium",
-  // "workbench.colorTheme": "Theme (Italic)",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Fira Code, monospace",
@@ -31,9 +29,9 @@
   ],
   "vim.handleKeys": {
     "<C-f>": false,
+    "<C-c>": false,
     "<C-v>": false,
     "<C-b>": false,
-    "<C-c>": false,
     "<C-w>": false,
     "<C-.>": false
   },
@@ -110,7 +108,7 @@
     }
   },
   "workbench.colorCustomizations": {
-    "editorLineNumber.foreground": "#414141"
+    "editorLineNumber.foreground": "#5c544d"
   },
   "editor.lineNumbers": "interval",
   "security.workspace.trust.banner": "never",
