@@ -1,6 +1,7 @@
 {
   // Visuals
-  "workbench.colorTheme": "Vim Dark Medium",
+  // "workbench.colorTheme": "Dark (Molokai)",
+  "workbench.colorTheme": "Vitesse Dark",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Fira Code, monospace",
