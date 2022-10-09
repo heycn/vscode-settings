@@ -26,7 +26,7 @@
 
   "import": {
     "prefix": "im",
-    "body": ["import { $1 } from '$2';"],
+    "body": ["import { $1 } from '$2'"],
     "description": "Import a module"
   },
 
