@@ -8,6 +8,10 @@
   "workbench.fontAliasing": "antialiased",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "window.zoomLevel": 0.6,
+  "workbench.colorCustomizations": {
+    "editor.wordHighlightStrongBorder": "#888",
+    "editor.wordHighlightStrongBackground": "#444"
+  },
 
   // Vim
   "vim.easymotion": true,
@@ -108,9 +112,6 @@
       "path": "C:\\Program Files\\Git\\bin\\bash.exe",
       "args": ["-i", "-l"]
     }
-  },
-  "workbench.colorCustomizations": {
-    "editorLineNumber.foreground": "#3d3d3d"
   },
   "editor.lineNumbers": "interval",
   "security.workspace.trust.banner": "never",
