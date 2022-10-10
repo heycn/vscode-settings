@@ -2,9 +2,11 @@
   // Visuals
   // "workbench.colorTheme": "Dark (Molokai)",
   "workbench.colorTheme": "Vitesse Dark",
+  "workbench.preferredDarkColorTheme": "Vitesse Dark",
+  "workbench.preferredLightColorTheme": "Vitesse Light",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
-  "editor.fontFamily": "Input Mono, Fira Code, monospace",
+  "editor.fontFamily": "Input Mono, monospace",
   "workbench.fontAliasing": "antialiased",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "window.zoomLevel": 0.6,
