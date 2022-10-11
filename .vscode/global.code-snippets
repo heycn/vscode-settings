@@ -80,6 +80,8 @@
     "body": [
       "import * as React from 'react'",
       "",
+      "const { useState, useEffect } = React",
+      "",
       "export const ${TM_FILENAME_BASE} = () => {",
       "  return (",
       "    <div>$1</div>",
