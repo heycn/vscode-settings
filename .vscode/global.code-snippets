@@ -78,7 +78,7 @@
   "React Function Component": {
     "prefix": "rfc",
     "body": [
-      "import React from 'react'",
+      "import * as React from 'react'",
       "",
       "export const ${TM_FILENAME_BASE} = () => {",
       "  return (",
