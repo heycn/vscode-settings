@@ -1,6 +1,6 @@
 {
   "html5": {
-    "prefix": "!",
+    "prefix": "html5",
     "body": [
       "<!DOCTYPE html>",
       "<html lang='zh-CN'>",
