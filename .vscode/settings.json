@@ -11,7 +11,9 @@
   "window.zoomLevel": 0.6,
   "workbench.colorCustomizations": {
     "editor.wordHighlightStrongBorder": "#888",
-    "editor.wordHighlightStrongBackground": "#444"
+    "editor.wordHighlightStrongBackground": "#444",
+    "list.activeSelectionBackground": "#37373d",
+    "list.focusBackground": "#2a2d2e"
   },
 
   // Vim
@@ -134,7 +136,6 @@
   "editor.renderWhitespace": "boundary",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.wordWrapColumn": 120,
-  "editor.minimap.enabled": false,
   "editor.quickSuggestionsDelay": 0,
   "editor.smoothScrolling": true,
   "editor.acceptSuggestionOnEnter": "off",
@@ -162,9 +163,10 @@
   "window.autoDetectColorScheme": false,
   "window.dialogStyle": "custom",
   "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "window.nativeTabs": true, // this is great, macOS only
   "scm.diffDecorationsGutterWidth": 2,
   "explorer.confirmDelete": false,
-  "window.nativeTabs": true, // this is great, macOS only
   "extensions.autoUpdate": "onlyEnabledExtensions",
   "extensions.ignoreRecommendations": true,
   "files.eol": "\n",
@@ -229,6 +231,7 @@
   "window.restoreWindows": "none",
   "files.autoSave": "onWindowChange",
   "workbench.startupEditor": "none",
+  "workbench.editor.tabCloseButton": "off",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.customMenuBarAltFocus": false,
   "cSpell.userWords": ["heycn"],
@@ -238,7 +241,6 @@
   "explorer.compactFolders": false,
   "[ruby]": { "editor.defaultFormatter": "jnbt.vscode-rufo" },
   "remote.localPortHost": "allInterfaces",
-  "window.menuBarVisibility": "compact",
   "eslint.codeAction.showDocumentation": { "enable": true },
   "eslint.quiet": true,
   "eslint.validate": [
