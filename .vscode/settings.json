@@ -1,6 +1,5 @@
 {
   // Visuals
-  // "workbench.colorTheme": "Dark (Molokai)",
   "workbench.colorTheme": "Vitesse Dark",
   "workbench.preferredDarkColorTheme": "Vitesse Dark",
   "workbench.preferredLightColorTheme": "Vitesse Light",
@@ -117,6 +116,18 @@
   },
   "editor.lineNumbers": "interval",
   "security.workspace.trust.banner": "never",
+  "workbench.layoutControl.enabled": false,
+  "workbench.list.defaultFindMode": "filter",
+  "workbench.list.smoothScrolling": true,
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 10,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "workbench.tree.expandMode": "singleClick",
+  "terminal.integrated.smoothScrolling": true,
   "editor.bracketPairColorization.enabled": false,
   "editor.scrollBeyondLastLine": false,
   "editor.renderWhitespace": "boundary",
@@ -124,13 +135,7 @@
   "editor.wordWrapColumn": 120,
   "editor.minimap.enabled": false,
   "editor.quickSuggestionsDelay": 0,
-  "workbench.layoutControl.enabled": false,
-  "workbench.list.defaultFindMode": "filter",
-  "workbench.list.smoothScrolling": true,
   "editor.smoothScrolling": true,
-  "terminal.integrated.smoothScrolling": true,
-  "workbench.sideBar.location": "right",
-  "workbench.tree.indent": 10,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.autoClosingBrackets": "always",
@@ -140,21 +145,6 @@
   "editor.dragAndDrop": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.guides.bracketPairsHorizontal": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.organizeImports": false
-  },
-  "explorer.confirmDragAndDrop": false,
-  "window.autoDetectColorScheme": false,
-  "window.dialogStyle": "custom",
-  "window.titleBarStyle": "custom",
-  "workbench.editor.closeOnFileDelete": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.perEditorGroup": true,
-  "workbench.editor.limit.value": 5,
-  "workbench.tree.expandMode": "singleClick",
-  "scm.diffDecorationsGutterWidth": 2,
   "editor.accessibilitySupport": "off",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.find.addExtraSpaceOnTop": false,
@@ -162,6 +152,16 @@
   "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.organizeImports": false
+  },
+  "html.autoCreateQuotes": false,
+  "explorer.confirmDragAndDrop": false,
+  "window.autoDetectColorScheme": false,
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "scm.diffDecorationsGutterWidth": 2,
   "explorer.confirmDelete": false,
   "window.nativeTabs": true, // this is great, macOS only
   "extensions.autoUpdate": "onlyEnabledExtensions",
@@ -257,9 +257,9 @@
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": true,
   "todohighlight.keywords": [
-    { "text": "TODO", "color": "#000", "borderRadius": "2px", "backgroundColor": "rgba(255,255,255,.8)" },
-    { "text": "XXX", "color": "#000", "borderRadius": "2px", "backgroundColor": "rgba(255,255,255,.8)" },
-    { "text": "FIXME", "color": "#000", "borderRadius": "2px", "backgroundColor": "rgba(255,255,255,.8)" }
+    { "text": "TODO", "color": "#000", "borderRadius": "2px", "backgroundColor": "#aaa" },
+    { "text": "XXX", "color": "#000", "borderRadius": "2px", "backgroundColor": "#aaa" },
+    { "text": "FIXME", "color": "#000", "borderRadius": "2px", "backgroundColor": "#aaa" }
   ],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
@@ -292,6 +292,5 @@
     "xml": {
       "attr_quotes": "single"
     }
-  },
-  "html.autoCreateQuotes": false
+  }
 }
