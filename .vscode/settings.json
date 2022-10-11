@@ -114,6 +114,8 @@
       "args": ["-i", "-l"]
     }
   },
+  "terminal.integrated.smoothScrolling": true,
+  "editor.linkedEditing": true,
   "editor.lineNumbers": "interval",
   "security.workspace.trust.banner": "never",
   "workbench.layoutControl.enabled": false,
@@ -127,7 +129,6 @@
   "workbench.editor.limit.perEditorGroup": true,
   "workbench.editor.limit.value": 5,
   "workbench.tree.expandMode": "singleClick",
-  "terminal.integrated.smoothScrolling": true,
   "editor.bracketPairColorization.enabled": false,
   "editor.scrollBeyondLastLine": false,
   "editor.renderWhitespace": "boundary",
