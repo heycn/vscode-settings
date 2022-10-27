@@ -1,7 +1,5 @@
 {
-  "workbench.colorTheme": "Vitesse Dark",
-  "workbench.preferredDarkColorTheme": "Vitesse Dark",
-  "workbench.preferredLightColorTheme": "Vitesse Light",
+  "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, monospace",
@@ -10,12 +8,8 @@
   "window.zoomLevel": 0.6,
   "workbench.colorCustomizations": {
     "editor.background": "#121212",
-    "editor.wordHighlightBackground": "#444",
-    "editor.wordHighlightStrongBorder": "#888",
-    "editor.wordHighlightStrongBackground": "#444",
-    "list.activeSelectionBackground": "#37373d",
     "editorLineNumber.foreground": "#444",
-    "list.focusBackground": "#2a2d2e"
+    "statusBar.background": "#252526"
   },
 
   // Vim
