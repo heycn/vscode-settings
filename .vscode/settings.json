@@ -9,10 +9,12 @@
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "window.zoomLevel": 0.6,
   "workbench.colorCustomizations": {
+    "editor.background": "#121212",
     "editor.wordHighlightBackground": "#444",
     "editor.wordHighlightStrongBorder": "#888",
     "editor.wordHighlightStrongBackground": "#444",
     "list.activeSelectionBackground": "#37373d",
+    "editorLineNumber.foreground": "#444",
     "list.focusBackground": "#2a2d2e"
   },
 
