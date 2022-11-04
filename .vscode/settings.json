@@ -13,9 +13,7 @@
   },
 
   // Vim
-  "vim.easymotion": true,
   "vim.incsearch": true,
-  "vim.leader": "<space>",
   "vim.useSystemClipboard": true,
   "vim.foldfix": true,
   "vim.useCtrlKeys": true,
@@ -108,7 +106,7 @@
   "terminal.integrated.defaultProfile.windows": "bash",
   "terminal.integrated.profiles.windows": {
     "bash": {
-      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "path": "D:\\Software\\Git\\bin\\bash.exe",
       "args": ["-i", "-l"]
     }
   },
