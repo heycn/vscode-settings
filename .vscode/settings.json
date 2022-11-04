@@ -128,7 +128,7 @@
   "editor.minimap.enabled": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.scrollBeyondLastLine": false,
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "none",
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.wordWrapColumn": 120,
   "editor.quickSuggestionsDelay": 0,
@@ -236,7 +236,7 @@
   "explorer.compactFolders": false,
   "[ruby]": { "editor.defaultFormatter": "jnbt.vscode-rufo" },
   "remote.localPortHost": "allInterfaces",
-  "eslint.codeAction.showDocumentation": { "enable": true },
+  "eslint.codeActtradind viewion.showDocumentation": { "enable": true },
   "eslint.quiet": true,
   "eslint.validate": [
     "javascript",
@@ -295,5 +295,8 @@
     "xml": {
       "attr_quotes": "single"
     }
+  },
+  "[less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
   }
 }
