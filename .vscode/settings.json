@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Vitesse Dark",
+  "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, monospace",
@@ -8,16 +8,16 @@
   "window.zoomLevel": 0.6,
   "workbench.colorCustomizations": {
     // 在使用 Dark Molokai 主题时，请使用下面配置
-    // "editor.background": "#121212",
-    // "editorLineNumber.foreground": "#444",
-    // "statusBar.background": "#252526",
+    "editor.background": "#121212",
+    "editorLineNumber.foreground": "#444",
+    "statusBar.background": "#252526",
 
     // 如果使用 Vitesse 主题，请使用下面配置
-    "editor.wordHighlightBackground": "#444",
-    "editor.wordHighlightStrongBorder": "#888",
-    "editor.wordHighlightStrongBackground": "#444",
-    "list.activeSelectionBackground": "#37373d",
-    "list.focusBackground": "#2a2d2e"
+    // "editor.wordHighlightBackground": "#444",
+    // "editor.wordHighlightStrongBorder": "#888",
+    // "editor.wordHighlightStrongBackground": "#444",
+    // "list.activeSelectionBackground": "#37373d",
+    // "list.focusBackground": "#2a2d2e"
   },
 
   // Vim
