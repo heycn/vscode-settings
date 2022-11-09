@@ -2,7 +2,7 @@
   "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
-  "editor.fontFamily": "Input Mono, monospace",
+  "editor.fontFamily": "Input Mono, Microsoft YaHei, monospace",
   "workbench.fontAliasing": "antialiased",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "window.zoomLevel": 0.6,
