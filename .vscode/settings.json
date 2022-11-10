@@ -1,10 +1,11 @@
 {
   "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
-  "workbench.productIconTheme": "icons-carbon",
-  "editor.fontFamily": "Input Mono, Microsoft YaHei, monospace",
+  "editor.fontFamily": "Input Mono,Microsoft YaHei, monospace",
+  "terminal.integrated.fontFamily": "Comic Mono, Microsoft YaHei, monospace",
   "workbench.fontAliasing": "antialiased",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
+  "errorLens.fontWeight" : "600",
   "window.zoomLevel": 0.6,
   "workbench.colorCustomizations": {
     "editor.background": "#121212",
@@ -47,62 +48,13 @@
   "git.ignoreRebaseWarning": true,
   "git.autofetch": true,
   "git.untrackedChanges": "separate",
-  "gitlens.codeLens.authors.enabled": false,
-  "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
-  "githubPullRequests.fileListLayout": "tree",
   "gitlens.codeLens.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.menus": {
-    "editor": {
-      "blame": false,
-      "clipboard": true,
-      "compare": true,
-      "history": false,
-      "remote": false
-    },
-    "editorGroup": {
-      "blame": true,
-      "compare": false
-    },
-    "editorTab": {
-      "clipboard": true,
-      "compare": true,
-      "history": true,
-      "remote": true
-    },
-    "explorer": {
-      "clipboard": true,
-      "compare": true,
-      "history": true,
-      "remote": true
-    },
-    "scm": {
-      "authors": true
-    },
-    "scmGroup": {
-      "compare": true,
-      "openClose": true,
-      "stash": true
-    },
-    "scmGroupInline": {
-      "stash": true
-    },
-    "scmItem": {
-      "clipboard": true,
-      "compare": true,
-      "history": true,
-      "remote": false,
-      "stash": true
-    }
-  },
 
   // Editor
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.fontWeight": "300",
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "terminal.integrated.tabs.enabled": true,
   "terminal.integrated.defaultProfile.windows": "bash",
   "terminal.integrated.profiles.windows": {
     "bash": {
@@ -116,12 +68,10 @@
   "workbench.list.defaultFindMode": "filter",
   "workbench.list.smoothScrolling": true,
   "workbench.sideBar.location": "right",
-  "workbench.tree.indent": 10,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
-  "workbench.editor.limit.value": 5,
   "workbench.tree.expandMode": "singleClick",
   "editor.lineNumbers": "interval",
   "editor.linkedEditing": true,
@@ -130,7 +80,6 @@
   "editor.scrollBeyondLastLine": false,
   "editor.renderWhitespace": "none",
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.wordWrapColumn": 120,
   "editor.quickSuggestionsDelay": 0,
   "editor.smoothScrolling": true,
   "editor.acceptSuggestionOnEnter": "off",
@@ -255,9 +204,9 @@
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": true,
   "todohighlight.keywords": [
-    { "text": "TODO", "color": "#000", "borderRadius": "2px", "backgroundColor": "#aaa" },
-    { "text": "XXX", "color": "#000", "borderRadius": "2px", "backgroundColor": "#aaa" },
-    { "text": "FIXME", "color": "#000", "borderRadius": "2px", "backgroundColor": "#aaa" }
+    { "text": "TODO", "color": "#000", "borderRadius": "2px", "backgroundColor": "#ddd" },
+    { "text": "XXX", "color": "#000", "borderRadius": "2px", "backgroundColor": "#ddd" },
+    { "text": "FIXME", "color": "#000", "borderRadius": "2px", "backgroundColor": "#ddd" }
   ],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
@@ -298,5 +247,6 @@
   },
   "[less]": {
     "editor.defaultFormatter": "vscode.css-language-features"
-  }
+  },
+  "workbench.productIconTheme": "icons-carbon"
 }
