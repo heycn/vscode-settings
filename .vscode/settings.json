@@ -1,16 +1,21 @@
 {
+  // Visuals
   "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
-  "editor.fontFamily": "Input Mono,Microsoft YaHei, monospace",
+  "editor.fontFamily": "Input Mono, Microsoft YaHei, monospace",
   "terminal.integrated.fontFamily": "Comic Mono, Microsoft YaHei, monospace",
   "workbench.fontAliasing": "antialiased",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
-  "errorLens.fontWeight" : "600",
+  "errorLens.fontWeight": "600",
+  "window.autoDetectColorScheme": false,
+  "window.nativeTabs": true,
+  "workbench.startupEditor": "none",
   "window.zoomLevel": 0.6,
   "workbench.colorCustomizations": {
-    "editor.background": "#121212",
-    "editorLineNumber.foreground": "#444",
-    "statusBar.background": "#252526",
+    "[Dark (Molokai)]": {
+      "editorLineNumber.foreground": "#444",
+      "statusBar.background": "#252526"
+    }
   },
 
   // Vim
@@ -50,7 +55,11 @@
   "git.ignoreRebaseWarning": true,
   "git.autofetch": true,
   "git.untrackedChanges": "separate",
-  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.enabled": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": true,
+
+  // Editor
 
   // Editor
   "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -74,6 +83,7 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
   "workbench.tree.expandMode": "singleClick",
   "editor.lineNumbers": "interval",
   "editor.linkedEditing": true,
@@ -106,11 +116,9 @@
   },
   "html.autoCreateQuotes": false,
   "explorer.confirmDragAndDrop": false,
-  "window.autoDetectColorScheme": false,
   "window.dialogStyle": "custom",
   "window.titleBarStyle": "custom",
   "window.menuBarVisibility": "toggle",
-  "window.nativeTabs": true, // this is great, macOS only
   "scm.diffDecorationsGutterWidth": 2,
   "explorer.confirmDelete": false,
   "extensions.autoUpdate": "onlyEnabledExtensions",
@@ -176,7 +184,6 @@
   "css.lint.hexColorLength": "ignore",
   "window.restoreWindows": "none",
   "files.autoSave": "onWindowChange",
-  "workbench.startupEditor": "none",
   "workbench.editor.tabCloseButton": "off",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "window.customMenuBarAltFocus": false,
