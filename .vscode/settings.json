@@ -2,18 +2,18 @@
   // Visuals
   "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
-  "editor.fontFamily": "Input Mono, Microsoft YaHei, monospace",
+  "workbench.productIconTheme": "icons-carbon",
+  "editor.fontFamily": "Input Mono, Dank Mono, Microsoft YaHei, monospace",
   "terminal.integrated.fontFamily": "Comic Mono, Microsoft YaHei, monospace",
   "workbench.fontAliasing": "antialiased",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
-  "errorLens.fontWeight": "600",
   "window.autoDetectColorScheme": false,
   "window.nativeTabs": true,
   "workbench.startupEditor": "none",
   "window.zoomLevel": 0.6,
   "workbench.colorCustomizations": {
     "[Dark (Molokai)]": {
-      "editorLineNumber.foreground": "#444",
+      "editorLineNumber.foreground": "#4449",
       "statusBar.background": "#252526"
     }
   },
@@ -30,9 +30,7 @@
     { "before": ["<C-n>"], "commands": [":nohl"] },
     { "before": ["K"], "commands": ["lineBreakInsert"], "silent": true },
     { "before": ["L"], "after": ["$"] },
-    { "before": ["H"], "after": ["^"] },
-    { "before": ["j"], "after": ["g", "j"] },
-    { "before": ["k"], "after": ["g", "k"] }
+    { "before": ["H"], "after": ["^"] }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     { "before": ["L"], "after": ["$"] },
@@ -44,24 +42,24 @@
     "<C-v>": false,
     "<C-b>": false,
     "<C-w>": false,
-    "<C-.>": false
+    "<C-.>": false,
+    "<C-d>": true,
+    "<C-u>": true
   },
 
-  // Git
+  // Editor
+  "git.autofetch": true,
   "git.enabled": true,
   "git.ignoreMissingGitWarning": true,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.ignoreRebaseWarning": true,
-  "git.autofetch": true,
   "git.untrackedChanges": "separate",
-  "gitlens.codeLens.enabled": true,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": true,
-
-  // Editor
-
-  // Editor
+  "editor.tabSize": 2,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "interval",
+  "editor.cursorSmoothCaretAnimation": true,
+  "explorer.confirmDelete": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
@@ -74,7 +72,6 @@
     }
   },
   "terminal.integrated.smoothScrolling": true,
-  "security.workspace.trust.banner": "never",
   "workbench.layoutControl.enabled": false,
   "workbench.list.defaultFindMode": "filter",
   "workbench.list.smoothScrolling": true,
@@ -84,18 +81,13 @@
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
   "workbench.editor.limit.value": 5,
-  "workbench.tree.expandMode": "singleClick",
-  "editor.lineNumbers": "interval",
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.scrollBeyondLastLine": false,
-  "editor.renderWhitespace": "none",
   "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.quickSuggestionsDelay": 0,
   "editor.smoothScrolling": true,
   "editor.acceptSuggestionOnEnter": "off",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingDelete": "always",
   "editor.autoClosingOvertype": "always",
@@ -104,12 +96,9 @@
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.accessibilitySupport": "off",
-  "editor.cursorSmoothCaretAnimation": true,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.guides.bracketPairs": "active",
-  "editor.inlineSuggest.enabled": true,
   "editor.suggestSelection": "first",
-  "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.organizeImports": false
@@ -120,8 +109,7 @@
   "window.titleBarStyle": "custom",
   "window.menuBarVisibility": "toggle",
   "scm.diffDecorationsGutterWidth": 2,
-  "explorer.confirmDelete": false,
-  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.autoUpdate": true,
   "extensions.ignoreRecommendations": true,
   "files.eol": "\n",
   "files.insertFinalNewline": true,
@@ -129,31 +117,6 @@
   "debug.onTaskErrors": "debugAnyway",
   "merge-conflict.autoNavigateNextConflict.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.DS_Store": false,
-    "**/.factorypath": true,
-    "**/.history": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/*.acn": true,
-    "**/*.acr": true,
-    "**/*.alg": true,
-    "**/*.aux": true,
-    "**/*.bcf": true,
-    "**/*.glg2": true,
-    "**/*.glo2": true,
-    "**/*.gls2": true,
-    "**/*.ist": true,
-    "**/*.log": true,
-    "**/.git": true,
-    "**/*.run.xml": true,
-    "**/.hg": true,
-    "**/.svn": true,
-    "**/CVS": true,
-    "**/node_modules": false,
-    "**/tmp": true
-  },
   "search.exclude": {
     "**/.git": true,
     "**/.github": true,
@@ -179,37 +142,34 @@
     "*.cjson": "jsonc",
     "*.wxss": "css",
     "*.wxs": "javascript",
-    "*.tsx ": "typescriptreact"
+    "*.tsx ": "typescriptreact",
+    "*.jsx": "javascriptreact"
   },
   "css.lint.hexColorLength": "ignore",
   "window.restoreWindows": "none",
   "files.autoSave": "onWindowChange",
   "workbench.editor.tabCloseButton": "off",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "window.customMenuBarAltFocus": false,
-  "cSpell.userWords": ["heycn"],
-  "html.format.enable": false,
   "path-intellisense.mappings": { "@": "${workspaceRoot}/src" },
-  "[xml]": { "editor.defaultFormatter": "redhat.vscode-xml" },
   "explorer.compactFolders": false,
-  "[ruby]": { "editor.defaultFormatter": "jnbt.vscode-rufo" },
   "remote.localPortHost": "allInterfaces",
-  "eslint.codeActtradind viewion.showDocumentation": { "enable": true },
-  "eslint.quiet": true,
-  "eslint.validate": [
-    "javascript",
-    "typescript",
-    "javascriptreact",
-    "typescriptreact",
-    "vue",
-    "html",
-    "markdown",
-    "json",
-    "jsonc",
-    "json5"
-  ],
 
-  // Extension
+  // Extension Settings
+  "volar.icon.splitEditors": false,
+  "volar.autoCompleteRefs": false,
+  "prettier.tabWidth": 2,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 280,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "vue": true
+  },
+  "gitlens.codeLens.recentChange.enabled": true,
+  "where-am-i.colorful": false,
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": true,
   "todohighlight.keywords": [
@@ -219,25 +179,16 @@
   ],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
+  "errorLens.enabledDiagnosticLevels": ["warning", "error"],
+  "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
+  "errorLens.fontWeight": "600",
   "sync.forceDownload": true,
   "sync.forceUpload": true,
   "sync.quietSync": true,
   "sync.gist": "6b0777459ae1fd04b55ff139a165b6ba",
   "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
-  "prettier.printWidth": 120,
-  "prettier.singleQuote": true,
   "prettier.arrowParens": "avoid",
   "prettier.trailingComma": "none",
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "emmet.variables": { "lang": "zh" },
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
@@ -247,15 +198,35 @@
     "wxml": "html",
     "vue-html": "html"
   },
-  "errorLens.enabledDiagnosticLevels": ["warning", "error"],
-  "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
   "emmet.syntaxProfiles": {
     "xml": {
       "attr_quotes": "single"
     }
   },
-  "[less]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
+
+  // Formatter
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.productIconTheme": "icons-carbon"
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "jnbt.vscode-rufo"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
 }
