@@ -1,6 +1,6 @@
 {
   // Visuals
-  "workbench.colorTheme": "Dark (Molokai)",
+  "workbench.colorTheme": "Everforest Dark",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Dank Mono, Microsoft YaHei, monospace",
@@ -15,6 +15,10 @@
     "[Dark (Molokai)]": {
       "editorLineNumber.foreground": "#4449",
       "statusBar.background": "#252526"
+    },
+    "[Everforest Dark]": {
+      "editorLineNumber.foreground": "#6669",
+      "editor.background": "#2b3339"
     }
   },
 
