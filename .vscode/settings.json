@@ -1,10 +1,10 @@
 {
   // Visuals
-  "workbench.colorTheme": "Everforest Dark",
+  "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Dank Mono, Microsoft YaHei, monospace",
-  "terminal.integrated.fontFamily": "Comic Mono, Microsoft YaHei, monospace",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono, Comic Mono, Microsoft YaHei, monospace",
   "workbench.fontAliasing": "antialiased",
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "window.autoDetectColorScheme": false,
@@ -121,6 +121,31 @@
   "debug.onTaskErrors": "debugAnyway",
   "merge-conflict.autoNavigateNextConflict.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.DS_Store": false,
+    "**/.factorypath": true,
+    "**/.history": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/*.acn": true,
+    "**/*.acr": true,
+    "**/*.alg": true,
+    "**/*.aux": true,
+    "**/*.bcf": true,
+    "**/*.glg2": true,
+    "**/*.glo2": true,
+    "**/*.gls2": true,
+    "**/*.ist": true,
+    "**/*.log": true,
+    "**/.git": true,
+    "**/*.run.xml": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/node_modules": false,
+    "**/tmp": true
+  },
   "search.exclude": {
     "**/.git": true,
     "**/.github": true,
@@ -223,5 +248,11 @@
   },
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
