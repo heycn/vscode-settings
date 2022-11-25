@@ -6,11 +6,11 @@
   "editor.fontFamily": "Input Mono, Dank Mono, Microsoft YaHei, monospace",
   "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono, Comic Mono, Microsoft YaHei, monospace",
   "workbench.fontAliasing": "antialiased",
+  "editor.fontSize": 15,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "window.autoDetectColorScheme": false,
   "window.nativeTabs": true,
   "workbench.startupEditor": "none",
-  "window.zoomLevel": 0.6,
   "workbench.colorCustomizations": {
     "[Dark (Molokai)]": {
       "editorLineNumber.foreground": "#4449",
