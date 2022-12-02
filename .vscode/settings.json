@@ -1,10 +1,7 @@
 {
-  // Visuals
-  "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Dank Mono, Microsoft YaHei, monospace",
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono, Comic Mono, Microsoft YaHei, monospace",
   "workbench.fontAliasing": "antialiased",
   "editor.fontSize": 15,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
@@ -71,7 +68,7 @@
   "terminal.integrated.defaultProfile.windows": "bash",
   "terminal.integrated.profiles.windows": {
     "bash": {
-      "path": "D:\\Software\\Git\\bin\\bash.exe",
+      "path": "D:\\Environment\\Git\\bin\\bash.exe",
       "args": ["-i", "-l"]
     }
   },
@@ -254,5 +251,6 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.colorTheme": "Dark (Molokai)"
 }
