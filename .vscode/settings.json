@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Dank Mono, Microsoft YaHei, monospace",
@@ -12,10 +13,6 @@
     "[Dark (Molokai)]": {
       "editorLineNumber.foreground": "#4449",
       "statusBar.background": "#252526"
-    },
-    "[Everforest Dark]": {
-      "editorLineNumber.foreground": "#6669",
-      "editor.background": "#2b3339"
     }
   },
 
@@ -65,10 +62,10 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "terminal.integrated.defaultProfile.windows": "bash",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.profiles.windows": {
     "bash": {
-      "path": "D:\\Environment\\Git\\bin\\bash.exe",
+      "path": "D:\\Software\\Git\\bin\\bash.exe",
       "args": ["-i", "-l"]
     }
   },
@@ -165,7 +162,6 @@
   "css.lint.hexColorLength": "ignore",
   "window.restoreWindows": "none",
   "files.autoSave": "onWindowChange",
-  "workbench.editor.tabCloseButton": "off",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "path-intellisense.mappings": { "@": "${workspaceRoot}/src" },
   "explorer.compactFolders": false,
@@ -244,13 +240,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.colorTheme": "Dark (Molokai)"
+  }
 }
