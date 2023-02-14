@@ -26,6 +26,8 @@
     "voorjaar.windicss-intellisense",
     "antfu.iconify",
     "antfu.unocss",
-    "Lokalise.i18n-ally"
+    "Lokalise.i18n-ally",
+    "christian-kohler.npm-intellisense",
+    "VisualStudioExptTeam.vscodeintellicode"
   ]
 }
