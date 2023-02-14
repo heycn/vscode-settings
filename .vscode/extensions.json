@@ -28,6 +28,7 @@
     "antfu.unocss",
     "Lokalise.i18n-ally",
     "christian-kohler.npm-intellisense",
-    "VisualStudioExptTeam.vscodeintellicode"
+    "VisualStudioExptTeam.vscodeintellicode",
+    "steoates.autoimport"
   ]
 }
