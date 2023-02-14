@@ -1,1 +1,31 @@
-
+{
+  "recommendations": [
+    "vscodevim.vim",
+    "nonylene.dark-molokai-theme",
+    "file-icons.file-icons",
+    "MS-CEINTL.vscode-language-pack-zh-hans",
+    "GitHub.copilot",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode',
+    "styled-components.vscode-styled-components",
+    "mhutchie.git-graph",
+    "donjayamanne.githistory",
+    "antfu.icons-carbon",
+    "wayou.vscode-todo-highlight",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "antfu.where-am-i",
+    "Vue.volar",
+    "ms-vscode-remote.remote-containers",
+    "w88975.code-translate",
+    "styled-components.vscode-styled-components",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "GitHub.vscode-pull-request-github",
+    "naumovs.color-highlight",
+    "voorjaar.windicss-intellisense",
+    "antfu.iconify",
+    "antfu.unocss",
+    "Lokalise.i18n-ally"
+  ]
+}
