@@ -6,7 +6,7 @@
 
 ## profiles
 
-**github gist URL:** `https://vscode.dev/profile/github/1798d8f8830af24c1f9f554db67badd9`
+**github gist URL:** `https://vscode.dev/profile/github/e64e1ce5d89a91e2ac17926945a80b00`
 
 or
 
