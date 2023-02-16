@@ -10,4 +10,4 @@
 
 or
 
-**profiles:** [.vscode/profiles.code-profile](./.vscode/profiles.code-profile)
+**profiles:** [`.vscode/profiles.code-profile`](./.vscode/profiles.code-profile)
