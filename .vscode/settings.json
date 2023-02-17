@@ -73,6 +73,7 @@
   "editor.renderWhitespace": "boundary",
   "workbench.list.defaultFindMode": "filter",
   "workbench.list.smoothScrolling": true,
+  "security.workspace.trust.untrustedFiles": "open",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
@@ -164,7 +165,10 @@
   "window.restoreWindows": "none",
   "files.autoSave": "onWindowChange",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "path-intellisense.mappings": { "@": "${workspaceRoot}/src" },
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src",
+    "~@": "${workspaceRoot}/src"
+  },
   "explorer.compactFolders": false,
   "remote.localPortHost": "allInterfaces",
 
@@ -180,7 +184,8 @@
     "yaml": true,
     "plaintext": true,
     "markdown": true,
-    "vue": true
+    "vue": true,
+    "javascript": true
   },
   "gitlens.codeLens.recentChange.enabled": true,
   "where-am-i.colorful": false,
@@ -193,6 +198,7 @@
   ],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
+  "auto-rename-tag.activationOnLanguage": ["*"],
   "errorLens.enabledDiagnosticLevels": ["warning", "error"],
   "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
   "errorLens.fontWeight": "600",
@@ -244,5 +250,8 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.wpy": "vue"
   }
 }
