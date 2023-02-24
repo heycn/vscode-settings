@@ -1,14 +1,14 @@
 {
-  "workbench.colorTheme": "Dark (Molokai)",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.iconTheme": "file-icons",
-  "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Dank Mono, Microsoft YaHei, monospace",
   "workbench.fontAliasing": "antialiased",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "window.autoDetectColorScheme": false,
   "window.nativeTabs": true,
   "workbench.startupEditor": "none",
+  "window.zoomLevel": 0.6,
   "workbench.colorCustomizations": {
     "[Dark (Molokai)]": {
       "editorLineNumber.foreground": "#4449",
@@ -44,6 +44,10 @@
     "<C-d>": true,
     "<C-u>": true
   },
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.autoSwitchInputMethod.defaultIM": "com.apple.keylayout.ABC",
+  "vim.autoSwitchInputMethod.obtainIMCmd": "/opt/homebrew/bin/im-select",
+  "vim.autoSwitchInputMethod.switchIMCmd": "/opt/homebrew/bin/im-select {im}",
 
   // Editor
   "git.autofetch": true,
@@ -58,17 +62,12 @@
   "editor.lineNumbers": "interval",
   "editor.cursorSmoothCaretAnimation": "on",
   "explorer.confirmDelete": false,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "terminal.integrated.defaultProfile.windows": "bash",
-  "terminal.integrated.profiles.windows": {
-    "bash": {
-      "path": "D:\\Environment\\Git\\bin\\bash.exe",
-      "args": ["-i", "-l"]
-    }
-  },
   "terminal.integrated.smoothScrolling": true,
   "editor.renderWhitespace": "boundary",
   "workbench.list.defaultFindMode": "filter",
@@ -163,7 +162,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "css.lint.hexColorLength": "ignore",
   "window.restoreWindows": "none",
-  "files.autoSave": "onWindowChange",
+  "files.autoSave": "onFocusChange",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src",
@@ -185,7 +184,8 @@
     "plaintext": true,
     "markdown": true,
     "vue": true,
-    "javascript": true
+    "javascript": true,
+    "jsonc": true
   },
   "gitlens.codeLens.recentChange.enabled": true,
   "where-am-i.colorful": false,
@@ -253,5 +253,6 @@
   },
   "files.associations": {
     "*.wpy": "vue"
-  }
+  },
+  "workbench.productIconTheme": "icons-carbon"
 }
