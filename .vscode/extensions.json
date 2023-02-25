@@ -1,5 +1,5 @@
 {
-  "recommendations": [
+  "extensions": [
     "voorjaar.windicss-intellisense",
     "antfu.where-am-i",
     "Vue.volar",
@@ -20,7 +20,6 @@
     "kisstkondoros.vscode-gutter-preview",
     "antfu.iconify",
     "Lokalise.i18n-ally",
-    "jdinhlife.gruvbox",
     "eamodio.gitlens",
     "GitHub.vscode-pull-request-github",
     "GitHub.copilot",
@@ -40,6 +39,9 @@
     "streetsidesoftware.code-spell-checker",
     "MS-CEINTL.vscode-language-pack-zh-hans",
     "antfu.icons-carbon",
-    "formulahendry.auto-rename-tag"
+    "formulahendry.auto-rename-tag",
+    "jnbt.vscode-rufo",
+    "EditorConfig.EditorConfig",
+    "yzhang.dictionary-completion"
   ]
 }
