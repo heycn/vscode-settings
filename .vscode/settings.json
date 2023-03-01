@@ -1,14 +1,17 @@
 {
-  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
+  "workbench.productIconTheme": "icons-carbon",
   "editor.fontFamily": "Input Mono, Dank Mono, Microsoft YaHei, monospace",
-  "workbench.fontAliasing": "antialiased",
+  "terminal.integrated.fontFamily": "Monaco, monospace",
   "editor.fontSize": 14,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
   "window.autoDetectColorScheme": false,
+  "workbench.fontAliasing": "antialiased",
   "window.nativeTabs": true,
   "workbench.startupEditor": "none",
   "window.zoomLevel": 0.6,
+  "terminal.integrated.fontSize": 13,
   "workbench.colorCustomizations": {
     "[Dark (Molokai)]": {
       "editorLineNumber.foreground": "#4449",
@@ -77,9 +80,8 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
-  "workbench.editor.limit.value": 5,
+  "workbench.editor.limit.value": 8,
   "workbench.sideBar.location": "right",
-  "window.menuBarVisibility": "toggle",
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 10,
   "editor.linkedEditing": true,
@@ -185,7 +187,8 @@
     "markdown": true,
     "vue": true,
     "javascript": true,
-    "jsonc": true
+    "jsonc": true,
+    "ruby": true
   },
   "gitlens.codeLens.recentChange.enabled": true,
   "where-am-i.colorful": false,
@@ -253,6 +256,5 @@
   },
   "files.associations": {
     "*.wpy": "vue"
-  },
-  "workbench.productIconTheme": "icons-carbon"
+  }
 }
