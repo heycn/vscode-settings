@@ -2,7 +2,7 @@
   "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
   "workbench.productIconTheme": "icons-carbon",
-  "editor.fontFamily": "Input Mono, Dank Mono, Microsoft YaHei, monospace",
+  "editor.fontFamily": "Input Mono, monospace",
   "terminal.integrated.fontFamily": "Monaco, monospace",
   "editor.fontSize": 14,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
@@ -14,7 +14,7 @@
   "terminal.integrated.fontSize": 13,
   "workbench.colorCustomizations": {
     "[Dark (Molokai)]": {
-      "editorLineNumber.foreground": "#4449",
+      "editorLineNumber.foreground": "#4448",
       "statusBar.background": "#252526"
     }
   },
@@ -60,7 +60,6 @@
   "git.confirmSync": false,
   "git.ignoreRebaseWarning": true,
   "git.untrackedChanges": "separate",
-  "editor.tabSize": 2,
   "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "interval",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -102,6 +101,21 @@
   "editor.find.addExtraSpaceOnTop": false,
   "editor.guides.bracketPairs": "active",
   "editor.suggestSelection": "first",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "css.lint.hexColorLength": "ignore",
+  "window.restoreWindows": "none",
+  "files.autoSave": "onFocusChange",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src",
+    "~@": "${workspaceRoot}/src"
+  },
+  "explorer.compactFolders": false,
+  "remote.localPortHost": "allInterfaces",
+  "json.schemaDownload.enable": false,
+  "editor.tabSize": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "minapp-vscode.disableAutoConfig": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.organizeImports": false
@@ -161,17 +175,6 @@
     "**/tmp": true,
     "**/yarn.lock": true
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "css.lint.hexColorLength": "ignore",
-  "window.restoreWindows": "none",
-  "files.autoSave": "onFocusChange",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "path-intellisense.mappings": {
-    "@": "${workspaceRoot}/src",
-    "~@": "${workspaceRoot}/src"
-  },
-  "explorer.compactFolders": false,
-  "remote.localPortHost": "allInterfaces",
 
   // Extension Settings
   "volar.icon.splitEditors": false,
@@ -255,6 +258,15 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
-    "*.wpy": "vue"
+    "*.wpy": "vue",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
