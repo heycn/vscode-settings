@@ -10,12 +10,18 @@
   "workbench.fontAliasing": "antialiased",
   "window.nativeTabs": true,
   "workbench.startupEditor": "none",
-  "window.zoomLevel": 0.6,
+  "window.zoomLevel": 0.7,
   "terminal.integrated.fontSize": 13,
   "workbench.colorCustomizations": {
     "[Dark (Molokai)]": {
-      "editorLineNumber.foreground": "#4448",
-      "statusBar.background": "#252526"
+      "editorLineNumber.foreground": "#51504e",
+      "editorLineNumber.activeForeground": "#bebaac",
+      "statusBar.background": "#252526",
+      "statusBar.border": "#333",
+      "editor.background": "#1e1e1e",
+      "editorWhitespace.foreground": "#333",
+      "editorIndentGuide.background": "#333",
+      "editor.lineHighlightBackground": "#262626",
     }
   },
 
@@ -59,7 +65,6 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.ignoreRebaseWarning": true,
-  "git.untrackedChanges": "separate",
   "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "interval",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -71,7 +76,6 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.smoothScrolling": true,
-  "editor.renderWhitespace": "boundary",
   "workbench.list.defaultFindMode": "filter",
   "workbench.list.smoothScrolling": true,
   "security.workspace.trust.untrustedFiles": "open",
@@ -84,6 +88,7 @@
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 10,
   "editor.linkedEditing": true,
+  "editor.renderWhitespace": "boundary",
   "editor.minimap.enabled": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.scrollBeyondLastLine": false,
@@ -104,7 +109,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "css.lint.hexColorLength": "ignore",
   "window.restoreWindows": "none",
-  "files.autoSave": "onFocusChange",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src",
@@ -191,7 +195,8 @@
     "vue": true,
     "javascript": true,
     "jsonc": true,
-    "ruby": true
+    "ruby": true,
+    "html": true
   },
   "gitlens.codeLens.recentChange.enabled": true,
   "where-am-i.colorful": false,
@@ -252,7 +257,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -268,5 +273,14 @@
   },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "[css]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "GitCommitPlugin.ShowEmoji": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "update.mode": "manual",
+  "files.autoSave": "onWindowChange",
+  "redhat.telemetry.enabled": true
 }
