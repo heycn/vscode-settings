@@ -1,12 +1,10 @@
 {
-  // Visuals
   "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
   "editor.fontFamily": "Input Mono, Fira Code, Monaco, monospace",
   "terminal.integrated.fontFamily": "Monaco, JetBrains Mono,  monospace",
   "editor.fontSize": 14,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero'",
-  "window.autoDetectColorScheme": false,
   "workbench.fontAliasing": "antialiased",
   "editor.cursorSmoothCaretAnimation": "on",
   "window.zoomLevel": 0.7,
@@ -14,18 +12,15 @@
   "window.dialogStyle": "custom",
   "terminal.integrated.fontSize": 13,
   "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#5eaab5",
-    "editorBracketHighlight.foreground2": "#4d9375",
-    "editorBracketHighlight.foreground3": "#d4976c",
-    "editorBracketHighlight.foreground4": "#d9739f",
-    "editorBracketHighlight.foreground5": "#e6cc77",
-    "editorBracketHighlight.foreground6": "#6394bf",
     "[Dark (Molokai)]": {
+      "editorBracketHighlight.foreground1": "#5eaab5",
+      "editorBracketHighlight.foreground2": "#4d9375",
+      "editorBracketHighlight.foreground3": "#d4976c",
+      "editorBracketHighlight.foreground4": "#d9739f",
+      "editorBracketHighlight.foreground5": "#e6cc77",
+      "editorBracketHighlight.foreground6": "#6394bf",
       "editorLineNumber.foreground": "#51504e",
-      "statusBar.background": "#252526",
-      "editorWhitespace.foreground": "#333",
-      "editorIndentGuide.background": "#333",
-      "editor.lineHighlightBackground": "#262626",
+      "statusBar.background": "#252526"
     }
   },
 
@@ -114,6 +109,7 @@
   },
 
   // Editor
+  "editor.rulers": [ 120 ],
   "workbench.startupEditor": "none",
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.suggest.localityBonus": true,
@@ -142,7 +138,7 @@
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 10,
   "editor.linkedEditing": true,
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "trailing",
   "editor.minimap.enabled": false,
   "editor.scrollBeyondLastLine": false,
   "editor.unicodeHighlight.invisibleCharacters": false,
@@ -154,7 +150,6 @@
   "workbench.editor.limit.perEditorGroup": true,
   "workbench.editor.limit.value": 8,
   "workbench.list.smoothScrolling": true,
-  "workbench.sideBar.location": "right",
   "editor.dragAndDrop": false,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.find.addExtraSpaceOnTop": false,
@@ -164,7 +159,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.compactFolders": false,
   "editor.tabSize": 2,
-  "diffEditor.ignoreTrimWhitespace": false,
   "minapp-vscode.disableAutoConfig": true,
   "update.mode": "manual",
   "files.autoSave": "onWindowChange",
@@ -214,7 +208,7 @@
   "prettier.enable": false,
   "prettier.semi": false,
   "prettier.singleQuote": true,
-  "prettier.printWidth": 240,
+  "prettier.printWidth": 120,
   "prettier.jsxSingleQuote": true,
   "prettier.arrowParens": "avoid",
   "prettier.trailingComma": "none",
@@ -224,10 +218,19 @@
     "~@": "${workspaceRoot}/src"
   },
   "github.copilot.enable": {
-    "*": true
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "typescript": true,
+    "go": false
   },
   "codeium.enableConfig": {
-    "*": true
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "ignore": true,
+    "go": false
   },
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": true,
@@ -290,5 +293,9 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "svg.preview.mode": "svg",
   "codeium.enableCodeLens": false,
-  "json.format.keepLines": true
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "Codegeex.Privacy": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.sideBar.location": "right",
+  "json.format.keepLines": true,
 }

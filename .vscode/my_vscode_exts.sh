@@ -1,25 +1,25 @@
-# Generated item: 2023-04-18 11:37:32 \n
+# Generated item: 2023-07-13 16:04:15
 code --install-extension aldijav.golangwithdidi
+code --install-extension AMiner.codegeex
 code --install-extension antfu.iconify
 code --install-extension antfu.icons-carbon
 code --install-extension antfu.unocss
-code --install-extension antfu.where-am-i
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension ckolkman.vscode-postgres
 code --install-extension Codeium.codeium
-code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension eamodio.gitlens
 code --install-extension ecmel.vscode-html-css
 code --install-extension EditorConfig.EditorConfig
-code --install-extension esbenp.prettier-vscode
 code --install-extension file-icons.file-icons
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
 code --install-extension GitHub.copilot
+code --install-extension GitHub.remotehub
 code --install-extension golang.go
+code --install-extension iocave.monkey-patch
 code --install-extension jnbt.vscode-rufo
 code --install-extension jock.svg
 code --install-extension kaiwood.endwise
@@ -27,10 +27,13 @@ code --install-extension kamikillerto.vscode-colorize
 code --install-extension kisstkondoros.vscode-gutter-preview
 code --install-extension lokalise.i18n-ally
 code --install-extension maggie.eslint-rules-zh-plugin
+code --install-extension meganrogge.template-string-converter
 code --install-extension mhutchie.git-graph
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension MS-CEINTL.vscode-language-pack-zh-hans
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode.azure-repos
+code --install-extension ms-vscode.remote-repositories
 code --install-extension nhoizey.gremlins
 code --install-extension nonylene.dark-molokai-theme
 code --install-extension pflannery.vscode-versionlens
@@ -48,6 +51,7 @@ code --install-extension steoates.autoimport
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension styled-components.vscode-styled-components
 code --install-extension syler.sass-indented
+code --install-extension unifiedjs.vscode-mdx
 code --install-extension usernamehw.errorlens
 code --install-extension VisualStudioExptTeam.intellicode-api-usage-examples
 code --install-extension VisualStudioExptTeam.vscodeintellicode
@@ -58,5 +62,6 @@ code --install-extension w88975.code-translate
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension wingrunr21.vscode-ruby
 code --install-extension xabikos.JavaScriptSnippets
+code --install-extension yoavbls.pretty-ts-errors
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension zxh404.vscode-proto3
