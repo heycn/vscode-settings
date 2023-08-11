@@ -47,6 +47,7 @@
   // Git
   "git.autofetch": true,
   "git.enabled": true,
+  "git.confirmSync": false,
   "git.ignoreMissingGitWarning": true,
   "git.suggestSmartCommit": false,
   "GitCommitPlugin.ShowEmoji": false,
