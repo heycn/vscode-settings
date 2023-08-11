@@ -1,24 +1,25 @@
 {
-  "workbench.colorTheme": "Dark (Molokai)",
+  "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "file-icons",
-  "editor.fontFamily": "Input Mono, Fira Code, Monaco, monospace",
-  "terminal.integrated.fontFamily": "Monaco, JetBrains Mono,  monospace",
-  "editor.fontSize": 14,
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero'",
+  "editor.fontFamily": "Fira Code, JetBrains Mono, Monaco, monospace",
+  "terminal.integrated.fontFamily": "Monaco, JetBrains Mono, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "450",
   "workbench.fontAliasing": "antialiased",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "window.zoomLevel": 0.7,
-  "window.titleBarStyle": "custom",
-  "window.dialogStyle": "custom",
+  "editor.fontSize": 14,
   "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeight": "300",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "window.zoomLevel": 0.5,
+  "window.dialogStyle": "custom",
   "workbench.colorCustomizations": {
-    "[Dark (Molokai)]": {
-      "editorBracketHighlight.foreground1": "#5eaab5",
-      "editorBracketHighlight.foreground2": "#4d9375",
-      "editorBracketHighlight.foreground3": "#d4976c",
-      "editorBracketHighlight.foreground4": "#d9739f",
-      "editorBracketHighlight.foreground5": "#e6cc77",
-      "editorBracketHighlight.foreground6": "#6394bf",
+    "editorBracketHighlight.foreground1": "#5eaab5",
+    "editorBracketHighlight.foreground2": "#4d9375",
+    "editorBracketHighlight.foreground3": "#d4976c",
+    "editorBracketHighlight.foreground4": "#d9739f",
+    "editorBracketHighlight.foreground5": "#e6cc77",
+    "editorBracketHighlight.foreground6": "#6394bf",
+    "[Dark (Molokai)][Default Dark+]": {
       "editorLineNumber.foreground": "#51504e",
       "statusBar.background": "#252526"
     }
@@ -42,71 +43,16 @@
     { "before": [ "L" ], "after": [ "$" ] },
     { "before": [ "H" ], "after": [ "^" ] }
   ],
-  "vim.handleKeys": {
-    "<C-f>": false,
-    "<C-c>": false,
-    "<C-v>": false,
-    "<C-b>": false,
-    "<C-w>": false,
-    "<C-.>": false,
-    "<C-d>": true,
-    "<C-u>": true
-  },
 
   // Git
   "git.autofetch": true,
   "git.enabled": true,
   "git.ignoreMissingGitWarning": true,
-  "git.enableSmartCommit": true,
+  "git.suggestSmartCommit": false,
   "GitCommitPlugin.ShowEmoji": false,
-  "git.confirmSync": false,
   "git.ignoreRebaseWarning": true,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.menus": {
-    "editor": {
-      "blame": false,
-      "clipboard": true,
-      "compare": true,
-      "history": false,
-      "remote": false
-    },
-    "editorGroup": {
-      "blame": true,
-      "compare": false
-    },
-    "editorTab": {
-      "clipboard": true,
-      "compare": true,
-      "history": true,
-      "remote": true
-    },
-    "explorer": {
-      "clipboard": true,
-      "compare": true,
-      "history": true,
-      "remote": true
-    },
-    "scm": {
-      "authors": true
-    },
-    "scmGroup": {
-      "compare": true,
-      "openClose": true,
-      "stash": true
-    },
-    "scmGroupInline": {
-      "stash": true
-    },
-    "scmItem": {
-      "clipboard": true,
-      "compare": true,
-      "history": true,
-      "remote": false,
-      "stash": true
-    }
-  },
 
   // Editor
   "editor.rulers": [ 120 ],
@@ -129,7 +75,6 @@
   "editor.hover.sticky": true,
   "explorer.confirmDelete": false,
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontWeight": "300",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.persistentSessionReviveProcess": "never",
@@ -205,13 +150,6 @@
   // Extension configs
   "volar.autoCompleteRefs": false,
   "volar.completion.preferredTagNameCase": "pascal",
-  "prettier.enable": false,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.printWidth": 120,
-  "prettier.jsxSingleQuote": true,
-  "prettier.arrowParens": "avoid",
-  "prettier.trailingComma": "none",
   "remote.localPortHost": "allInterfaces",
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src",
@@ -219,46 +157,20 @@
   },
   "github.copilot.enable": {
     "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false,
-    "typescript": true,
-    "go": false
   },
   "codeium.enableConfig": {
     "*": true,
-    "plaintext": true,
-    "markdown": true,
-    "ignore": true,
-    "go": false
   },
-  "todohighlight.isEnable": true,
-  "todohighlight.isCaseSensitive": true,
-  "todohighlight.keywords": [
-    {
-      "text": "TODO",
-      "color": "#000",
-      "borderRadius": "2px",
-      "backgroundColor": "#ddd"
-    },
-    {
-      "text": "XXX",
-      "color": "#000",
-      "borderRadius": "2px",
-      "backgroundColor": "#ddd"
-    },
-    {
-      "text": "FIXME",
-      "color": "#000",
-      "borderRadius": "2px",
-      "backgroundColor": "#ddd"
-    }
-  ],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
   "auto-rename-tag.activationOnLanguage": [
     "*"
   ],
+  "errorLens.fontWeight": "600",
+  "errorLens.fontSize": "14",
+  "errorLens.editorHoverPartsEnabled": {
+    "buttonsEnabled": false
+  },
   "errorLens.enabledDiagnosticLevels": [
     "warning",
     "error"
@@ -268,7 +180,6 @@
     "Grammarly",
     "eslint"
   ],
-  "errorLens.fontWeight": "600",
   "emmet.variables": {
     "lang": "zh"
   },
@@ -295,7 +206,6 @@
   "codeium.enableCodeLens": false,
   "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
   "Codegeex.Privacy": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "workbench.sideBar.location": "right",
   "json.format.keepLines": true,
+  "window.commandCenter": false,
 }

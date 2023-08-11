@@ -1,15 +1,17 @@
-# Generated item: 2023-07-13 16:04:15
+# Generated item: 2023-08-12 00:05:37
 code --install-extension aldijav.golangwithdidi
 code --install-extension AMiner.codegeex
 code --install-extension antfu.iconify
 code --install-extension antfu.icons-carbon
 code --install-extension antfu.unocss
+code --install-extension bradlc.vscode-tailwindcss
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension ckolkman.vscode-postgres
 code --install-extension Codeium.codeium
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
+code --install-extension dyno-nguyen.vscode-dynofileutils
 code --install-extension eamodio.gitlens
 code --install-extension ecmel.vscode-html-css
 code --install-extension EditorConfig.EditorConfig
@@ -19,6 +21,7 @@ code --install-extension formulahendry.code-runner
 code --install-extension GitHub.copilot
 code --install-extension GitHub.remotehub
 code --install-extension golang.go
+code --install-extension Gruntfuggly.todo-tree
 code --install-extension iocave.monkey-patch
 code --install-extension jnbt.vscode-rufo
 code --install-extension jock.svg
