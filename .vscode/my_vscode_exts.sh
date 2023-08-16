@@ -1,4 +1,4 @@
-# Generated item: 2023-08-12 00:05:37
+# Generated item: 2023-08-16 10:56:29
 code --install-extension aldijav.golangwithdidi
 code --install-extension AMiner.codegeex
 code --install-extension antfu.iconify
@@ -18,6 +18,7 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension file-icons.file-icons
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
+code --install-extension ginfuru.ginfuru-better-solarized-dark-theme
 code --install-extension GitHub.copilot
 code --install-extension GitHub.remotehub
 code --install-extension golang.go

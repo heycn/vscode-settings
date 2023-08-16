@@ -1,25 +1,23 @@
 {
   "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "file-icons",
-  "editor.fontFamily": "Fira Code, JetBrains Mono, Monaco, monospace",
+  "editor.fontFamily": "Fira Code, Monaco, monospace",
   "terminal.integrated.fontFamily": "Monaco, JetBrains Mono, monospace",
   "editor.fontLigatures": true,
-  "editor.fontWeight": "450",
-  "workbench.fontAliasing": "antialiased",
   "editor.fontSize": 14,
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontWeight": "300",
   "editor.cursorSmoothCaretAnimation": "on",
-  "window.zoomLevel": 0.5,
+  "window.zoomLevel": 0.6,
   "window.dialogStyle": "custom",
   "workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#5eaab5",
-    "editorBracketHighlight.foreground2": "#4d9375",
-    "editorBracketHighlight.foreground3": "#d4976c",
-    "editorBracketHighlight.foreground4": "#d9739f",
-    "editorBracketHighlight.foreground5": "#e6cc77",
-    "editorBracketHighlight.foreground6": "#6394bf",
     "[Dark (Molokai)][Default Dark+]": {
+      "editorBracketHighlight.foreground1": "#5eaab5",
+      "editorBracketHighlight.foreground2": "#4d9375",
+      "editorBracketHighlight.foreground3": "#d4976c",
+      "editorBracketHighlight.foreground4": "#d9739f",
+      "editorBracketHighlight.foreground5": "#e6cc77",
+      "editorBracketHighlight.foreground6": "#6394bf",
       "editorLineNumber.foreground": "#51504e",
       "statusBar.background": "#252526"
     }
