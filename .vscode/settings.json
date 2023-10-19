@@ -1,13 +1,14 @@
 {
   "workbench.colorTheme": "Default Dark+",
   "workbench.iconTheme": "file-icons",
-  "editor.fontFamily": "Fira Code, Monaco, monospace",
   "terminal.integrated.fontFamily": "Monaco, JetBrains Mono, monospace",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontFamily": "Monaco, JetBrains Mono, Fira Code, Input Mono, monospace",
+  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "workbench.fontAliasing": "antialiased",
+  "editor.fontSize": 15,
   "terminal.integrated.fontSize": 13,
-  "terminal.integrated.fontWeight": "300",
   "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.tree.expandMode": "singleClick",
   "window.zoomLevel": 0.6,
   "window.dialogStyle": "custom",
   "workbench.colorCustomizations": {
@@ -64,6 +65,7 @@
   "editor.suggest.showStatusBar": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "interval",
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.useInlineCompletions": true,
   "emmet.triggerExpansionOnTab": false,
@@ -75,7 +77,6 @@
   "explorer.confirmDelete": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.enableMultiLinePasteWarning": false,
-  "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "workbench.list.defaultFindMode": "filter",
   "security.workspace.trust.untrustedFiles": "open",
@@ -104,8 +105,7 @@
   "explorer.compactFolders": false,
   "editor.tabSize": 2,
   "minapp-vscode.disableAutoConfig": true,
-  "update.mode": "manual",
-  "files.autoSave": "onWindowChange",
+  "files.autoSave": "off",
   "redhat.telemetry.enabled": true,
   "window.newWindowDimensions": "inherit",
   "window.restoreWindows": "none",
@@ -145,40 +145,28 @@
     "**/tmp": true,
     "**/yarn.lock": true
   },
-
   // Extension configs
-  "volar.autoCompleteRefs": false,
-  "volar.completion.preferredTagNameCase": "pascal",
   "remote.localPortHost": "allInterfaces",
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src",
     "~@": "${workspaceRoot}/src"
   },
   "github.copilot.enable": {
-    "*": true,
+    "*": true
   },
   "codeium.enableConfig": {
-    "*": true,
+    "*": true
   },
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
-  "auto-rename-tag.activationOnLanguage": [
-    "*"
-  ],
+  "auto-rename-tag.activationOnLanguage": [ "*" ],
   "errorLens.fontWeight": "600",
   "errorLens.fontSize": "14",
   "errorLens.editorHoverPartsEnabled": {
     "buttonsEnabled": false
   },
-  "errorLens.enabledDiagnosticLevels": [
-    "warning",
-    "error"
-  ],
-  "errorLens.excludeBySource": [
-    "cSpell",
-    "Grammarly",
-    "eslint"
-  ],
+  "errorLens.enabledDiagnosticLevels": [ "warning", "error" ],
+  "errorLens.excludeBySource": [ "cSpell", "Grammarly", "eslint" ],
   "emmet.variables": {
     "lang": "zh"
   },
@@ -207,4 +195,19 @@
   "Codegeex.Privacy": true,
   "json.format.keepLines": true,
   "window.commandCenter": false,
+  "update.mode": "manual",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
 }

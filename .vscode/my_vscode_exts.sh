@@ -1,4 +1,4 @@
-# Generated item: 2023-08-16 10:56:29
+# Generated item: 2023-10-19 13:40:38
 code --install-extension aldijav.golangwithdidi
 code --install-extension AMiner.codegeex
 code --install-extension antfu.iconify
@@ -15,11 +15,12 @@ code --install-extension dyno-nguyen.vscode-dynofileutils
 code --install-extension eamodio.gitlens
 code --install-extension ecmel.vscode-html-css
 code --install-extension EditorConfig.EditorConfig
+code --install-extension esbenp.prettier-vscode
 code --install-extension file-icons.file-icons
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
-code --install-extension ginfuru.ginfuru-better-solarized-dark-theme
 code --install-extension GitHub.copilot
+code --install-extension GitHub.copilot-chat
 code --install-extension GitHub.remotehub
 code --install-extension golang.go
 code --install-extension Gruntfuggly.todo-tree
@@ -38,6 +39,7 @@ code --install-extension MS-CEINTL.vscode-language-pack-zh-hans
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode.azure-repos
 code --install-extension ms-vscode.remote-repositories
+code --install-extension naumovs.color-highlight
 code --install-extension nhoizey.gremlins
 code --install-extension nonylene.dark-molokai-theme
 code --install-extension pflannery.vscode-versionlens
@@ -45,12 +47,12 @@ code --install-extension pranaygp.vscode-css-peek
 code --install-extension premparihar.gotestexplorer
 code --install-extension qiu8310.minapp-vscode
 code --install-extension quicktype.quicktype
-code --install-extension rebornix.ruby
 code --install-extension redhat.vscode-xml
 code --install-extension redhat.vscode-yaml
 code --install-extension redjue.git-commit-plugin
 code --install-extension ritwickdey.LiveServer
 code --install-extension sburg.vscode-javascript-booster
+code --install-extension Shopify.ruby-lsp
 code --install-extension steoates.autoimport
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension styled-components.vscode-styled-components
@@ -63,8 +65,6 @@ code --install-extension voorjaar.windicss-intellisense
 code --install-extension vscodevim.vim
 code --install-extension Vue.volar
 code --install-extension w88975.code-translate
-code --install-extension wayou.vscode-todo-highlight
-code --install-extension wingrunr21.vscode-ruby
 code --install-extension xabikos.JavaScriptSnippets
 code --install-extension yoavbls.pretty-ts-errors
 code --install-extension yzhang.markdown-all-in-one
