@@ -1,9 +1,11 @@
 {
+  // Visuals
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
   "workbench.iconTheme": "file-icons",
   "terminal.integrated.fontFamily": "Monaco, JetBrains Mono, monospace",
   "editor.fontFamily": "IBM Plex Mono, Input Mono, JetBrains Mono, Fira Code, Monaco, monospace",
   // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
-  // "workbench.fontAliasing": "antialiased",
+  // "workbench.fontAliasing": "antialiased", // Enable when you use 'Input Mono' for 'fontFamily'
   "editor.fontSize": 15,
   "terminal.integrated.fontSize": 13,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -52,11 +54,21 @@
   "git.ignoreRebaseWarning": true,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
+
+  // Workbench
+  "explorer.compactFolders": false,
   "workbench.tree.indent": 10,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.showTabs": false,
-  "editor.rulers": [ 120 ],
   "workbench.startupEditor": "none",
+  "workbench.list.defaultFindMode": "filter",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.sideBar.location": "right",
+
+  // Editor
+  "editor.rulers": [ 120 ],
   "editor.suggest.preview": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.lineNumbers": "interval",
@@ -70,9 +82,7 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "workbench.list.defaultFindMode": "filter",
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.layoutControl.enabled": false,
   "editor.linkedEditing": true,
   "editor.renderWhitespace": "trailing",
   "editor.minimap.enabled": false,
@@ -80,8 +90,6 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.smoothScrolling": true,
   "editor.autoClosingQuotes": "always",
-  "workbench.editor.closeOnFileDelete": true,
-  "workbench.list.smoothScrolling": true,
   "editor.dragAndDrop": false,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.find.addExtraSpaceOnTop": false,
@@ -99,8 +107,10 @@
   "editor.autoClosingBrackets": "always",
   "workbench.productIconTheme": "icons-carbon",
   "editor.autoClosingDelete": "always",
+  "breadcrumbs.enabled": false,
   "editor.autoClosingOvertype": "always",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "audioCues.volume": 0,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     // "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
@@ -131,8 +141,10 @@
     "**/tmp": true,
     "**/yarn.lock": true
   },
+
   // Extension configs
   "remote.localPortHost": "allInterfaces",
+  "Codegeex.EnableExtension": true,
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src",
     "~@": "${workspaceRoot}/src"
@@ -180,6 +192,7 @@
   "svg.preview.mode": "svg",
   "codeium.enableCodeLens": false,
   "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "json.format.keepLines": true,
   "Codegeex.Privacy": true,
   "window.commandCenter": false,
   "update.mode": "manual",
@@ -196,18 +209,10 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
 
-  // Prettier
-  // I wouldn't normally use it.
+  // Prettier - I wouldn't normally use it.
   "prettier.arrowParens": "avoid",
   "prettier.printWidth": 120,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
-  "Codegeex.EnableExtension": true,
-  "audioCues.volume": 0,
-  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "json.format.keepLines": true,
-  "workbench.sideBar.location": "right",
-  "breadcrumbs.enabled": false,
 }
