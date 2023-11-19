@@ -1,14 +1,13 @@
 {
-  "workbench.colorTheme": "Dark (Molokai)",
   "workbench.iconTheme": "file-icons",
   "terminal.integrated.fontFamily": "Monaco, JetBrains Mono, monospace",
-  "editor.fontFamily": "Monaco, JetBrains Mono, Fira Code, Input Mono, monospace",
-  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.fontFamily": "Input Mono, JetBrains Mono, Fira Code, Monaco, monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  // "editor.fontLigatures": true,
   "workbench.fontAliasing": "antialiased",
   "editor.fontSize": 15,
   "terminal.integrated.fontSize": 13,
   "editor.cursorSmoothCaretAnimation": "on",
-  "workbench.tree.expandMode": "singleClick",
   "window.zoomLevel": 0.6,
   "window.dialogStyle": "custom",
   "workbench.colorCustomizations": {
@@ -36,11 +35,12 @@
     { "before": [ "<C-n>" ], "commands": [ ":nohl" ] },
     { "before": [ "K" ], "commands": [ "lineBreakInsert" ], "silent": true },
     { "before": [ "L" ], "after": [ "$" ] },
-    { "before": [ "H" ], "after": [ "^" ] }
+    { "before": [ "H" ], "after": [ "^" ] },
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     { "before": [ "L" ], "after": [ "$" ] },
-    { "before": [ "H" ], "after": [ "^" ] }
+    { "before": [ "H" ], "after": [ "^" ] },
+    // { "before": [ "p" ], "after": [ "p", "g", "v", "y" ] },
   ],
 
   // Git
@@ -55,16 +55,14 @@
   "gitlens.codeLens.enabled": false,
 
   // Editor
+  "breadcrumbs.enabled": false,
+  "workbench.tree.indent": 10,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.showTabs": false,
   "editor.rulers": [ 120 ],
   "workbench.startupEditor": "none",
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "editor.suggest.localityBonus": true,
-  "editor.suggestSelection": "first",
   "editor.suggest.preview": true,
-  "editor.suggest.shareSuggestSelections": true,
-  "editor.suggest.showStatusBar": true,
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.inlineSuggest.enabled": true,
   "editor.lineNumbers": "interval",
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.useInlineCompletions": true,
@@ -72,8 +70,6 @@
   "editor.detectIndentation": false,
   "editor.accessibilitySupport": "off",
   "editor.acceptSuggestionOnEnter": "off",
-  "editor.stickyScroll.enabled": true,
-  "editor.hover.sticky": true,
   "explorer.confirmDelete": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -81,7 +77,6 @@
   "workbench.list.defaultFindMode": "filter",
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.layoutControl.enabled": false,
-  "workbench.tree.indent": 10,
   "editor.linkedEditing": true,
   "editor.renderWhitespace": "trailing",
   "editor.minimap.enabled": false,
@@ -90,10 +85,6 @@
   "editor.smoothScrolling": true,
   "editor.autoClosingQuotes": "always",
   "workbench.editor.closeOnFileDelete": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.perEditorGroup": true,
-  "workbench.editor.limit.value": 8,
   "workbench.list.smoothScrolling": true,
   "editor.dragAndDrop": false,
   "editor.guides.bracketPairsHorizontal": true,
@@ -102,7 +93,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "css.lint.hexColorLength": "ignore",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.compactFolders": false,
   "editor.tabSize": 2,
   "minapp-vscode.disableAutoConfig": true,
   "files.autoSave": "off",
@@ -152,7 +142,10 @@
     "~@": "${workspaceRoot}/src"
   },
   "github.copilot.enable": {
-    "*": true
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
   },
   "codeium.enableConfig": {
     "*": true
@@ -188,12 +181,10 @@
     "*.wxs": "javascript"
   },
   "liveServer.settings.donotVerifyTags": true,
-  "liveServer.settings.donotShowInfoMsg": true,
   "svg.preview.mode": "svg",
   "codeium.enableCodeLens": false,
   "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
   "Codegeex.Privacy": true,
-  "json.format.keepLines": true,
   "window.commandCenter": false,
   "update.mode": "manual",
   "[javascript]": {
@@ -216,4 +207,9 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
+  "Codegeex.EnableExtension": true,
+  "audioCues.volume": 0,
+  "workbench.colorTheme": "Dark (Molokai)",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "json.format.keepLines": true,
 }

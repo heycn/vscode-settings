@@ -31,8 +31,18 @@
   },
 
   "console.log": {
-    "prefix": "log",
+    "prefix": "csl",
     "body": ["console.log($1)"],
+    "description": "Print 'console.log()'"
+  },
+
+  "console.log debug": {
+    "prefix": "logdebug",
+    "body": [
+      "console.log('==================================================')",
+      "console.log('$1:', $1)",
+      "console.log('==================================================')",
+    ],
     "description": "Print 'console.log()'"
   },
 
@@ -65,28 +75,15 @@
     ]
   },
 
-  "setTimeout()": {
-    "prefix": "sto",
-    "body": ["setTimeout(() => {", "  $2", "}, ${1:delay})"]
-  },
-
-  "setInterval()": {
-    "prefix": "siv",
-    "body": ["setInterval(() => {", "  $2", "}, ${1:delay})"]
-  },
-
   "React Function Component": {
     "prefix": "rfc",
     "body": [
-      "import * as React from 'react'",
-      "",
-      "const { useState, useEffect } = React",
-      "",
-      "export const ${TM_FILENAME_BASE} = () => {",
+      "export const ${TM_FILENAME_BASE}: React.FC = () => {",
       "  return (",
-      "    <div>$1</div>",
+      "    <div>${TM_FILENAME_BASE}</div>",
       "  )",
-      "}"
+      "}",
+      ""
     ]
   },
 
