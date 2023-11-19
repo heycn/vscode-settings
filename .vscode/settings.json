@@ -1,10 +1,9 @@
 {
   "workbench.iconTheme": "file-icons",
   "terminal.integrated.fontFamily": "Monaco, JetBrains Mono, monospace",
-  "editor.fontFamily": "Input Mono, JetBrains Mono, Fira Code, Monaco, monospace",
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
-  // "editor.fontLigatures": true,
-  "workbench.fontAliasing": "antialiased",
+  "editor.fontFamily": "IBM Plex Mono, Input Mono, JetBrains Mono, Fira Code, Monaco, monospace",
+  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  // "workbench.fontAliasing": "antialiased",
   "editor.fontSize": 15,
   "terminal.integrated.fontSize": 13,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -53,9 +52,6 @@
   "git.ignoreRebaseWarning": true,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
-
-  // Editor
-  "breadcrumbs.enabled": false,
   "workbench.tree.indent": 10,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.showTabs": false,
@@ -209,7 +205,9 @@
   "prettier.trailingComma": "all",
   "Codegeex.EnableExtension": true,
   "audioCues.volume": 0,
-  "workbench.colorTheme": "Dark (Molokai)",
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
   "liveServer.settings.donotShowInfoMsg": true,
   "json.format.keepLines": true,
+  "workbench.sideBar.location": "right",
+  "breadcrumbs.enabled": false,
 }
