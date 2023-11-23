@@ -1,24 +1,24 @@
 {
   // Visuals
-  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
-  "workbench.iconTheme": "file-icons",
+  "workbench.colorTheme": "Flexoki Dark",
+  "workbench.iconTheme": "symbols",
   "terminal.integrated.fontFamily": "Monaco, JetBrains Mono, monospace",
-  "editor.fontFamily": "IBM Plex Mono, Input Mono, JetBrains Mono, Fira Code, Monaco, monospace",
-  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
-  // "workbench.fontAliasing": "antialiased", // Enable when you use 'Input Mono' for 'fontFamily'
-  "editor.fontSize": 15,
+  "editor.fontFamily": "IBM Plex Mono, Input Mono, Fira Code, JetBrains Mono, Monaco, monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "workbench.fontAliasing": "antialiased",
+  "editor.fontSize": 16,
   "terminal.integrated.fontSize": 13,
   "editor.cursorSmoothCaretAnimation": "on",
-  "window.zoomLevel": 0.6,
+  "window.zoomLevel": 0.4,
   "window.dialogStyle": "custom",
   "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#5eaab5",
+    "editorBracketHighlight.foreground2": "#4d9375",
+    "editorBracketHighlight.foreground3": "#d4976c",
+    "editorBracketHighlight.foreground4": "#d9739f",
+    "editorBracketHighlight.foreground5": "#e6cc77",
+    "editorBracketHighlight.foreground6": "#6394bf",
     "[Dark (Molokai)][Default Dark+]": {
-      "editorBracketHighlight.foreground1": "#5eaab5",
-      "editorBracketHighlight.foreground2": "#4d9375",
-      "editorBracketHighlight.foreground3": "#d4976c",
-      "editorBracketHighlight.foreground4": "#d9739f",
-      "editorBracketHighlight.foreground5": "#e6cc77",
-      "editorBracketHighlight.foreground6": "#6394bf",
       "editorLineNumber.foreground": "#51504e",
       "statusBar.background": "#252526"
     }
@@ -59,13 +59,13 @@
   "explorer.compactFolders": false,
   "workbench.tree.indent": 10,
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.showTabs": false,
   "workbench.startupEditor": "none",
   "workbench.list.defaultFindMode": "filter",
   "workbench.layoutControl.enabled": false,
   "workbench.editor.closeOnFileDelete": true,
   "workbench.list.smoothScrolling": true,
-  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "symbols.hidesExplorerArrows": false,
 
   // Editor
   "editor.rulers": [ 120 ],

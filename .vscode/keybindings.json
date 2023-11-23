@@ -1,9 +1,9 @@
 // 将键绑定放在此文件中以覆盖默认值
 [
-  // {
-  //   "key": "ctrl+[Backquote]",
-  //   "command": "workbench.action.terminal.toggleTerminal"
-  // },
+  {
+    "key": "ctrl+[Backquote]",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
   {
     "key": "shift+cmd+e",
     "command": "-workbench.view.explorer",
