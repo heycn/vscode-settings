@@ -1,4 +1,3 @@
-// 将键绑定放在此文件中以覆盖默认值
 [
   {
     "key": "ctrl+[Backquote]",
@@ -99,18 +98,12 @@
   },
   {
     "key": "shift+cmd+g",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active"
+    "command": "workbench.view.scm"
   },
   {
     "key": "ctrl+shift+g",
     "command": "-workbench.view.scm",
     "when": "workbench.scm.active"
-  },
-  {
-    "key": "shift+cmd+g",
-    "command": "workbench.view.scm",
-    "when": "workbench.scm.active && !gitlens:disabled && config.gitlens.keymap == 'chorded'"
   },
   {
     "key": "ctrl+shift+g",
@@ -148,7 +141,11 @@
   },
   {
     "key": "shift+cmd+j",
-    "command": "workbench.action.previousEditor"
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "workbench.action.nextEditor"
   },
   {
     "key": "alt+cmd+left",
@@ -161,10 +158,60 @@
   },
   {
     "key": "shift+cmd+k",
-    "command": "workbench.action.nextEditor"
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "shift+cmd+h",
+    "command": "workbench.action.previousEditor"
   },
   {
     "key": "alt+cmd+right",
     "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+cmd+h",
+    "command": "-workbench.action.replaceInFiles"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-selectAllSearchEditorMatches",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-addCursorsAtSearchResults",
+    "when": "fileMatchOrMatchFocus && searchViewletVisible"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-editor.action.selectHighlights",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "workbench.view.search"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.view.search",
+    "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
+  },
+  {
+    "key": "shift+cmd+x",
+    "command": "workbench.view.extensions"
+  },
+  {
+    "key": "shift+cmd+x",
+    "command": "-workbench.view.extensions",
+    "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-markdown.extension.editing.toggleBold",
+    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+  },
+  {
+    "key": "cmd+p",
+    "command": "workbench.action.showAllEditors"
   }
 ]

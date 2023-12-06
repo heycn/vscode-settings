@@ -1,10 +1,11 @@
-# Generated item: 2023-11-23 10:47:07
+# Generated item: 2023-12-06 22:48:15
 code --install-extension aldijav.golangwithdidi
 code --install-extension AMiner.codegeex
 code --install-extension antfu.iconify
 code --install-extension antfu.icons-carbon
+code --install-extension antfu.smart-clicks
 code --install-extension antfu.unocss
-code --install-extension azemoh.one-monokai
+code --install-extension antfu.where-am-i
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
@@ -17,12 +18,14 @@ code --install-extension dyno-nguyen.vscode-dynofileutils
 code --install-extension eamodio.gitlens
 code --install-extension ecmel.vscode-html-css
 code --install-extension esbenp.prettier-vscode
+code --install-extension file-icons.file-icons
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
 code --install-extension GitHub.copilot
 code --install-extension GitHub.copilot-chat
 code --install-extension GitHub.remotehub
 code --install-extension golang.go
+code --install-extension Gruntfuggly.todo-tree
 code --install-extension jnbt.vscode-rufo
 code --install-extension jock.svg
 code --install-extension kaiwood.endwise
@@ -31,7 +34,6 @@ code --install-extension kisstkondoros.vscode-gutter-preview
 code --install-extension maggie.eslint-rules-zh-plugin
 code --install-extension meganrogge.template-string-converter
 code --install-extension mhutchie.git-graph
-code --install-extension miguelsolorio.symbols
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension MS-CEINTL.vscode-language-pack-zh-hans
 code --install-extension ms-vscode-remote.remote-containers
@@ -45,7 +47,6 @@ code --install-extension pranaygp.vscode-css-peek
 code --install-extension premparihar.gotestexplorer
 code --install-extension qiu8310.minapp-vscode
 code --install-extension quicktype.quicktype
-code --install-extension RaillyHugo.one-hunter
 code --install-extension redhat.vscode-xml
 code --install-extension redhat.vscode-yaml
 code --install-extension redjue.git-commit-plugin

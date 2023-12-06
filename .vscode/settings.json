@@ -60,7 +60,7 @@
   "gitlens.codeLens.enabled": false,
 
   // Workbench
-  "workbench.editor.showTabs": "single",
+  // "workbench.editor.showTabs": "single",
   "explorer.compactFolders": false,
   "workbench.tree.indent": 10,
   "workbench.editor.highlightModifiedTabs": true,
@@ -212,8 +212,8 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "where-am-i.colorful": false,
-  "workbench.activityBar.location": "top",
   "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "top",
 
 
   // Prettier - I wouldn't normally use it.
