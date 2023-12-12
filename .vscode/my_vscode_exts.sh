@@ -1,4 +1,4 @@
-# Generated item: 2023-12-06 22:48:15
+# Generated item: 2023-12-12 10:36:28
 code --install-extension aldijav.golangwithdidi
 code --install-extension AMiner.codegeex
 code --install-extension antfu.iconify
@@ -61,7 +61,6 @@ code --install-extension unifiedjs.vscode-mdx
 code --install-extension usernamehw.errorlens
 code --install-extension VisualStudioExptTeam.intellicode-api-usage-examples
 code --install-extension VisualStudioExptTeam.vscodeintellicode
-code --install-extension voorjaar.windicss-intellisense
 code --install-extension vscodevim.vim
 code --install-extension Vue.volar
 code --install-extension w88975.code-translate

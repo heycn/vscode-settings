@@ -4,10 +4,11 @@
   "terminal.integrated.fontFamily": "Monaco, JetBrains Mono, monospace",
   "editor.fontFamily": "Fira Code, JetBrains Mono, Monaco, monospace",
   // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
-  // "workbench.fontAliasing": "antialiased",
+  // "workbench.fontAliasing": "antialiased
   "window.zoomLevel": 0.5,
   "editor.fontSize": 15,
   "terminal.integrated.fontSize": 13,
+  "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontWeight": "300",
   "editor.cursorSmoothCaretAnimation": "on",
   "debug.console.fontSize": 14,
@@ -31,22 +32,33 @@
 
   // Vim
   "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
+  // "vim.incsearch": true,
   "vim.foldfix": true,
-  "vim.useCtrlKeys": true,
+  // "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
-  "vim.leader": "<space>",
-  "vim.normalModeKeyBindingsNonRecursive": [
+  "vim.useSystemClipboard": true,
+  "vim.leader": "<Space>",
+  "vim.normalModeKeyBindings": [
+    { "before": [ "L" ], "after": [ "g", "_" ] },
+    { "before": [ "H" ], "after": [ "^" ] },
     { "before": [ "<C-n>" ], "commands": [ ":nohl" ] },
     { "before": [ "K" ], "commands": [ "lineBreakInsert" ], "silent": true },
-    { "before": [ "L" ], "after": [ "$" ] },
+    { "before": [ "<C-j>" ], "after": [ "5", "j" ] },
+    { "before": [ "<C-k>" ], "after": [ "5", "k" ] },
+  ],
+  "vim.visualModeKeyBindings": [
+    { "before": [ "L" ], "after": [ "g", "_" ] },
+    { "before": [ "H" ], "after": [ "^" ] },
+    { "before": [ "<C-j>" ], "after": [ "5", "j" ] },
+    { "before": [ "<C-k>" ], "after": [ "5", "k" ] },
+  ],
+  "vim.operatorPendingModeKeyBindings": [
+    { "before": [ "L" ], "after": [ "g", "_" ] },
     { "before": [ "H" ], "after": [ "^" ] },
   ],
-  "vim.visualModeKeyBindingsNonRecursive": [
-    { "before": [ "L" ], "after": [ "$" ] },
-    { "before": [ "H" ], "after": [ "^" ] },
-  ],
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
 
   // Git
   "git.autofetch": true,
@@ -61,8 +73,11 @@
 
   // Workbench
   // "workbench.editor.showTabs": "single",
+  "breadcrumbs.icons": false,
+  "breadcrumbs.symbolPath": "off",
   "explorer.compactFolders": false,
   "workbench.tree.indent": 10,
+  "workbench.tree.enableStickyScroll": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "none",
   "workbench.list.defaultFindMode": "filter",
@@ -80,7 +95,6 @@
   "emmet.triggerExpansionOnTab": false,
   "editor.detectIndentation": false,
   "editor.accessibilitySupport": "off",
-  "editor.acceptSuggestionOnEnter": "off",
   "explorer.confirmDelete": false,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.enableMultiLinePasteWarning": false,
@@ -113,9 +127,8 @@
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "audioCues.volume": 0,
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    // "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
-    "source.organizeImports": false
+    "source.fixAll": "never",
+    "source.organizeImports": "never"
   },
   "explorer.confirmDragAndDrop": false,
   "scm.diffDecorationsGutterWidth": 2,
@@ -199,6 +212,9 @@
   "Codegeex.Privacy": true,
   "window.commandCenter": false,
   "update.mode": "manual",
+  "where-am-i.colorful": false,
+
+  // Formatter
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -211,15 +227,17 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "where-am-i.colorful": false,
-  "breadcrumbs.enabled": false,
-  "workbench.activityBar.location": "top",
-
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   // Prettier - I wouldn't normally use it.
-  // "prettier.arrowParens": "avoid",
-  // "prettier.printWidth": 120,
-  // "prettier.semi": false,
-  // "prettier.singleQuote": true,
-  // "prettier.trailingComma": "all",
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
 }

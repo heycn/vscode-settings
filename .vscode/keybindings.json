@@ -1,51 +1,5 @@
 [
   {
-    "key": "ctrl+[Backquote]",
-    "command": "workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "shift+cmd+e",
-    "command": "-workbench.view.explorer",
-    "when": "viewContainer.workbench.view.explorer.enabled"
-  },
-  {
-    "key": "shift+cmd+e",
-    "command": "workbench.view.explorer"
-  },
-  {
-    "key": "cmd+k cmd+f",
-    "command": "-editor.action.formatSelection",
-    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "cmd+l",
-    "command": "-expandLineSelection",
-    "when": "textInputFocus"
-  },
-  {
-    "key": "ctrl+s",
-    "command": "-extension.vim_ctrl+s",
-    "when": "editorTextFocus && vim.active && vim.use<C-s> && !inDebugRepl"
-  },
-  {
-    "key": "cmd+s",
-    "command": "-workbench.action.files.save"
-  },
-  {
-    "key": "cmd+s",
-    "command": "workbench.action.files.save"
-  },
-  {
-    "key": "` cmd",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
     "key": "alt+t",
     "command": "-dynoFileUtils.useTemplate"
   },
@@ -135,57 +89,16 @@
     "command": "-workbench.action.zoomOut"
   },
   {
-    "key": "shift+cmd+j",
-    "command": "-workbench.action.search.toggleQueryDetails",
-    "when": "inSearchEditor || searchViewletFocus"
-  },
-  {
-    "key": "shift+cmd+j",
+    "key": "ctrl+l",
     "command": "workbench.action.nextEditor"
   },
   {
-    "key": "shift+cmd+l",
-    "command": "workbench.action.nextEditor"
-  },
-  {
-    "key": "alt+cmd+left",
-    "command": "-workbench.action.previousEditor"
-  },
-  {
-    "key": "shift+cmd+k",
-    "command": "-editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
-    "key": "shift+cmd+k",
-    "command": "workbench.action.previousEditor"
-  },
-  {
-    "key": "shift+cmd+h",
+    "key": "ctrl+h",
     "command": "workbench.action.previousEditor"
   },
   {
     "key": "alt+cmd+right",
     "command": "-workbench.action.nextEditor"
-  },
-  {
-    "key": "shift+cmd+h",
-    "command": "-workbench.action.replaceInFiles"
-  },
-  {
-    "key": "shift+cmd+l",
-    "command": "-selectAllSearchEditorMatches",
-    "when": "inSearchEditor"
-  },
-  {
-    "key": "shift+cmd+l",
-    "command": "-addCursorsAtSearchResults",
-    "when": "fileMatchOrMatchFocus && searchViewletVisible"
-  },
-  {
-    "key": "shift+cmd+l",
-    "command": "-editor.action.selectHighlights",
-    "when": "editorFocus"
   },
   {
     "key": "shift+cmd+f",
@@ -197,21 +110,20 @@
     "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
   },
   {
-    "key": "shift+cmd+x",
-    "command": "workbench.view.extensions"
-  },
-  {
-    "key": "shift+cmd+x",
-    "command": "-workbench.view.extensions",
-    "when": "viewContainer.workbench.view.extensions.enabled"
-  },
-  {
     "key": "cmd+b",
     "command": "-markdown.extension.editing.toggleBold",
     "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
   },
   {
-    "key": "cmd+p",
+    "key": "ctrl+cmd+p",
     "command": "workbench.action.showAllEditors"
-  }
+  },
+  {
+    "key": "cmd+o",
+    "command": "workbench.action.showAllEditors"
+  },
+  {
+    "key": "cmd+l",
+    "command": "editor.action.formatSelection"
+  },
 ]
