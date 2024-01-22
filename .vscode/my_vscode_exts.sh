@@ -1,8 +1,7 @@
-# Generated item: 2023-12-12 10:36:28
+# Generated item: 2024-01-22 22:32:23
 code --install-extension aldijav.golangwithdidi
 code --install-extension AMiner.codegeex
 code --install-extension antfu.iconify
-code --install-extension antfu.icons-carbon
 code --install-extension antfu.smart-clicks
 code --install-extension antfu.unocss
 code --install-extension antfu.where-am-i
@@ -18,7 +17,6 @@ code --install-extension dyno-nguyen.vscode-dynofileutils
 code --install-extension eamodio.gitlens
 code --install-extension ecmel.vscode-html-css
 code --install-extension esbenp.prettier-vscode
-code --install-extension file-icons.file-icons
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
 code --install-extension GitHub.copilot
@@ -65,6 +63,6 @@ code --install-extension vscodevim.vim
 code --install-extension Vue.volar
 code --install-extension w88975.code-translate
 code --install-extension xabikos.JavaScriptSnippets
-code --install-extension yoavbls.pretty-ts-errors
+code --install-extension YoavBls.pretty-ts-errors
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension zxh404.vscode-proto3
